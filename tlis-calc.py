@@ -1,6 +1,6 @@
-import math
+from math import ceil, floor
 
-P = 222
+P = 225
 T = 365 + 180
-Z = math.ceil((2 / 3) * (T - math.floor(P * 1.5)))
+Z = ceil((2 / 3) * (T - floor(P * 1.5)))
 print(Z)
